@@ -1,0 +1,21 @@
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+import About from '../pages/About';
+import Exposure from '../pages/Exposure';
+import Home from '../pages/Home';
+import PastEditions from '../pages/PastEditions';
+import Photographers from '../pages/Photographers';
+
+const Routes: React.FC = () => (
+  <Switch>
+    <Route path="/" exact component={Home} />
+    <Route path="/sobre" exact component={About} />
+    <Route path="/participantes" exact component={Photographers} />
+    <Route path="/edicoes-anteriores" exact component={PastEditions} />
+
+    <Route path="/expo" exact component={Exposure} />
+  </Switch>
+);
+
+export default Routes;
