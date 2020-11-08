@@ -15,7 +15,6 @@ import {
 
 import expoImages from '../../assets/expo';
 import projectLogoMonochromatic from '../../assets/images/project-logo-monochromatic.svg';
-// import switchSound from '../../assets/sounds/switch-sound.mp3';
 
 const Exposure: React.FC = () => {
   const [currentIndexLeft, setCurrentIndexLeft] = useState(0);
@@ -40,8 +39,9 @@ const Exposure: React.FC = () => {
   }, []);
 
   const switchPhoto = useCallback((index: number) => {
-    // const audio = new Audio(switchSound);
-    // tocar áudio
+    const switchSound = `${process.env.PUBLIC_URL}/sounds/switch-sound.mp3`;
+    const audio = new Audio(switchSound);
+    audio.play();
 
     let thisDraw = drawNumber();
     console.log(`sorteado o numero ${thisDraw}`);
