@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="763" height="708" viewBox="0 0 763 708">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_27" data-name="Retângulo 27" width="763" height="708" transform="translate(727.021 88)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_1" data-name="Grupo de máscara 1" transform="translate(-727.021 -88)" clip-path="url(#clip-path)">
+    <g id="grafismo" transform="translate(744.6 -55.504)">
+      <rect id="Retângulo_21" data-name="Retângulo 21" width="376.247" height="504.498" transform="matrix(0.863, -0.505, 0.505, 0.863, 0, 190.134)" fill="#ff595a" opacity="0.4"/>
+      <rect id="Retângulo_22" data-name="Retângulo 22" width="370.882" height="481.158" transform="translate(375.196 335.658) rotate(7.585)" fill="#8a1a9b" opacity="0.3"/>
+      <rect id="Retângulo_23" data-name="Retângulo 23" width="410.544" height="509.789" transform="translate(362.563 83.123) rotate(22)" fill="#fbb040" opacity="0.3"/>
+      <rect id="Retângulo_24" data-name="Retângulo 24" width="367.325" height="483.068" transform="matrix(0.996, -0.087, 0.087, 0.996, 172.094, 253.221)" fill="#f7941e" opacity="0.5"/>
+      <rect id="Retângulo_25" data-name="Retângulo 25" width="385.486" height="489.752" transform="translate(311.04 146.108) rotate(13)" fill="#2b3990" opacity="0.3"/>
+      <rect id="Retângulo_26" data-name="Retângulo 26" width="317.325" height="425.068" transform="translate(262.749 284.476)" fill="#221f1f"/>
+      <text id="pandemia" transform="translate(388.422 670.504)" fill="#fff" font-size="33" font-family="September-Heavy, September" font-weight="800" letter-spacing="0.029em"><tspan x="0" y="0">pandemia</tspan></text>
+      <text id="da" transform="translate(515.845 638.504)" fill="#fff" font-size="29" font-family="September-Heavy, September" font-weight="800"><tspan x="0" y="0">da</tspan></text>
+      <text id="retratos" transform="translate(388.833 638.504)" fill="#fff" font-size="30" font-family="September-Heavy, September" font-weight="800"><tspan x="0" y="0">retratos</tspan></text>
+    </g>
+  </g>
+</svg>
