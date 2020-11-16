@@ -36,43 +36,9 @@ export const List = styled.ul`
 export const Calendar = styled.div`
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 
   @media (min-width: 600px) {
     margin: 0 -10px;
-  }
-`;
-
-export const Point = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-
-  background: #ffebe8;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 15px;
-
-  span {
-    color: white;
-    text-align: center;
-    font-weight: 600;
-
-    background: #fc9788;
-    padding: 10px 0 8px 0;
-    border-radius: 6px;
-    margin-bottom: 15px;
-  }
-
-  p {
-    margin: 0 5px;
-  }
-
-  p + p {
-    margin-top: 5px;
-  }
-
-  @media (min-width: 600px) {
-    width: 30.5%;
-    margin: 10px;
   }
 `;

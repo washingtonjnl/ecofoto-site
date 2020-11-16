@@ -6,10 +6,11 @@ import BackToTopButton from '../../components/BackToTopButton';
 import Title from '../../components/Title';
 import Caption from '../../components/Caption';
 import Text from '../../components/Text';
+import Dropdown from '../../components/Dropdown';
 
 import projectLogo from '../../assets/images/project-logo.svg';
 
-import { Container, Main, List, Calendar, Point } from './styles';
+import { Container, Main, List, Calendar } from './styles';
 
 const About: React.FC = () => {
   return (
@@ -132,63 +133,56 @@ const About: React.FC = () => {
         </List>
         <Caption>
           Calendário da 8ª edição Ecofoto - Retratos da Pandemia
+          <p>Clique nas datas para expandir os itens.</p>
         </Caption>
         <Calendar>
-          <Point>
-            <span>05/10/2020 à 11/10/2020</span>
+          <Dropdown title="05/10/2020 à 11/10/2020">
             <p>
               inscrições para participar do ciclo de <i>workshop</i> + mentoria
               + criação de retratos.
             </p>
-          </Point>
-          <Point>
-            <span>22/10/2020</span>
+          </Dropdown>
+          <Dropdown title="22/10/2020">
             <p>
               evento de abertura do ciclo de criação do projeto no canal da
               Escola de Comunicação da UFRJ no YouTube. Antonio Fatorelli
               entrevista Alexandre Sequeira.
             </p>
-          </Point>
-          <Point>
-            <span>26/10/2020 à 30/10/2020</span>
+          </Dropdown>
+          <Dropdown title="26/10/2020 à 30/10/2020">
             <p>
               realização do <i>workshop</i> online.
             </p>
-          </Point>
-          <Point>
-            <span>26/10/2020 à 08/11/2020</span>
+          </Dropdown>
+          <Dropdown title="26/10/2020 à 08/11/2020">
             <p>programa de mentoria online.</p>
-          </Point>
-          <Point>
-            <span>09/11/2020</span>
+          </Dropdown>
+          <Dropdown title="09/11/2020">
             <p>submissão da série inédita de retratos.</p>
-          </Point>
-          <Point>
-            <span>17/11/2020</span>
+          </Dropdown>
+          <Dropdown title="17/11/2020">
             <p>
               inauguração da exposição virtual <b>Retratos da Pandemia.</b>
             </p>
-          </Point>
-          <Point>
-            <span>17/11/2020 à 17/02/2021</span>
+          </Dropdown>
+          <Dropdown title="17/11/2020 à 17/02/2021">
             <p>visitação aberta ao público da exposição virtual.</p>
-          </Point>
+          </Dropdown>
         </Calendar>
         <Caption>
           Programação completa as aulas do <i>workshop</i>
+          <p>Clique nas datas para expandir os itens.</p>
         </Caption>
         <Calendar>
-          <Point>
-            <span>26/10/2020</span>
+          <Dropdown title="26/10/2020">
             <p>
               <b>Alexandre Sequeira (UFPA)</b>
             </p>
             <p>
               <i>Poéticas do encontro</i>
             </p>
-          </Point>
-          <Point>
-            <span>27/10/2020</span>
+          </Dropdown>
+          <Dropdown title="27/10/2020">
             <p>
               <b>Fernando Maia da Cunha (UFC)</b>
             </p>
@@ -198,27 +192,24 @@ const About: React.FC = () => {
                 caminhos da criação e edição na fotografia
               </i>
             </p>
-          </Point>
-          <Point>
-            <span>28/10/2020</span>
+          </Dropdown>
+          <Dropdown title="28/10/2020">
             <p>
               <b>Alessandra Vannucci (UFRJ)</b>
             </p>
             <p>
               <i>Retratos roubados e retratos de ausências</i>
             </p>
-          </Point>
-          <Point>
-            <span>29/10/2020</span>
+          </Dropdown>
+          <Dropdown title="29/10/2020">
             <p>
               <b>Joyce Abbade, Alice Macedo e Junior Franco</b>
             </p>
             <p>
               <i>A experiência da produção coletiva de retratos</i>
             </p>
-          </Point>
-          <Point>
-            <span>30/10/2020</span>
+          </Dropdown>
+          <Dropdown title="30/10/2020">
             <p>
               <b>Felipe Camilo (UFC)</b>
             </p>
@@ -228,7 +219,7 @@ const About: React.FC = () => {
                 papel
               </i>
             </p>
-          </Point>
+          </Dropdown>
         </Calendar>
         <BackToTopButton />
       </Main>

@@ -5,6 +5,14 @@ export const Container = styled.h2`
   font-size: 22px;
   margin-bottom: 20px;
 
+  p {
+    margin-top: 5px;
+    color: #ccc;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: italic;
+  }
+
   p + & {
     margin-top: 20px;
   }
