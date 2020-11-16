@@ -15,7 +15,7 @@ const Mentors: React.FC = () => {
       <Header />
       <Main>
         <img src={projectLogo} alt="Ecofoto, retratos da pandemia" />
-        <Title>Quem são os mentores do projeto?</Title>
+        <Title>Quem são os palestrantes do projeto?</Title>
         <Mentor>
           <span>Alexandre Sequeira</span>
           <p>

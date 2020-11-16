@@ -28,12 +28,27 @@ export const Main = styled.main`
   }
 `;
 
-export const PhotographersList = styled.div`
+export const Gallery = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 
   @media (min-width: 600px) {
     margin: 0 -10px;
+  }
+`;
+
+export const Photo = styled.div`
+  margin-bottom: 25px;
+
+  img {
+    width: 100%;
+    margin: 0;
+  }
+
+  @media (min-width: 600px) {
+    width: calc(50% - 20px);
+    margin: 10px;
+    margin-bottom: 25px;
   }
 `;

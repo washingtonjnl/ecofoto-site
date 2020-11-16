@@ -6,7 +6,7 @@ export const Container = styled.div`
   width: 100%;
   align-self: baseline;
 
-  background: #ffebe8;
+  background: #fcf1d9;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 15px;
@@ -20,11 +20,10 @@ export const Container = styled.div`
 
   span {
     color: white;
-    text-align: center;
     font-weight: 600;
 
-    background: #fc9788;
-    padding: 10px 0 8px 0;
+    background: #f4ac53;
+    padding: 10px 10px 8px 10px;
     border-radius: 6px;
   }
 
@@ -36,8 +35,19 @@ export const Container = styled.div`
     margin-top: 5px;
   }
 
+  button {
+    padding: 13px 28px 12px 20px;
+    margin: 15px auto 5px 5px !important;
+  }
+
   @media (min-width: 600px) {
     width: 30.5%;
     margin: 10px;
   }
+`;
+
+export const Name = styled.span`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
