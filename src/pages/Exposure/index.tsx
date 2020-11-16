@@ -57,10 +57,6 @@ const Exposure: React.FC = () => {
     }
   }, []);
 
-  // linha do tempo das trocas de imagens
-  //  .   .   .   .   .   .   .   .   .   .
-  //  .     .     .     .     .     .     .
-
   useEffect(() => {
     setInterval(() => switchPhoto(0), 3000);
     setInterval(() => switchPhoto(1), 5000);
@@ -87,7 +83,17 @@ const Exposure: React.FC = () => {
 
           <PhotoInfo>
             <h4>{expoImages[currentIndexLeft].photographer}</h4>
-            <p>{expoImages[currentIndexLeft].subtitle}</p>
+            {expoImages[currentIndexLeft].serie !== '' ? (
+              <>
+                <p>{expoImages[currentIndexLeft].serie}</p>
+                <p>{expoImages[currentIndexLeft].subtitle}</p>
+              </>
+            ) : (
+              <>
+                <p>{expoImages[currentIndexLeft].subtitle}</p>
+                <p className="nothing">|</p>
+              </>
+            )}
           </PhotoInfo>
         </PhotoContainer>
         <PhotoContainer>
@@ -100,7 +106,17 @@ const Exposure: React.FC = () => {
 
           <PhotoInfo>
             <h4>{expoImages[currentIndexRight].photographer}</h4>
-            <p>{expoImages[currentIndexRight].subtitle}</p>
+            {expoImages[currentIndexRight].serie !== '' ? (
+              <>
+                <p>{expoImages[currentIndexRight].serie}</p>
+                <p>{expoImages[currentIndexRight].subtitle}</p>
+              </>
+            ) : (
+              <>
+                <p>{expoImages[currentIndexRight].subtitle}</p>
+                <p className="nothing">|</p>
+              </>
+            )}
           </PhotoInfo>
         </PhotoContainer>
       </Main>

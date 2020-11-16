@@ -65,6 +65,10 @@ export const Photo = styled.div`
 
 export const PhotoInfo = styled.div`
   padding: 15px;
+
+  .nothing {
+    opacity: 0;
+  }
 `;
 
 export const Footer = styled.footer`
