@@ -39,10 +39,6 @@ const Exposure: React.FC = () => {
   }, []);
 
   const switchPhoto = useCallback((index: number) => {
-    const switchSound = `${process.env.PUBLIC_URL}/sounds/switch-sound.mp3`;
-    const audio = new Audio(switchSound);
-    audio.play();
-
     let thisDraw = drawNumber();
     console.log(`sorteado o numero ${thisDraw}`);
 

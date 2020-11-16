@@ -41,6 +41,12 @@ const Header: React.FC = () => {
             sobre o projeto
           </NavItem>
           <NavItem
+            id="palestrantes"
+            onClick={() => handleNavigate('palestrantes')}
+          >
+            palestrantes
+          </NavItem>
+          <NavItem
             id="participantes"
             onClick={() => handleNavigate('participantes')}
           >

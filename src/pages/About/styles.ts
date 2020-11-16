@@ -76,18 +76,3 @@ export const Point = styled.div`
     margin: 10px;
   }
 `;
-
-export const Photographer = styled.div`
-  &:not(:first-child) {
-    margin-bottom: 20px;
-  }
-
-  span {
-    color: #ec1c23;
-    font-size: 20px;
-  }
-
-  p {
-    margin-top: 10px;
-  }
-`;
