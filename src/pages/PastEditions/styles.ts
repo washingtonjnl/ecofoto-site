@@ -31,7 +31,7 @@ export const Editions = styled.div`
   }
 `;
 
-export const Edition = styled.div`
+export const Edition = styled.a`
   display: flex;
   align-items: center;
   width: 100%;
@@ -41,6 +41,7 @@ export const Edition = styled.div`
   border-radius: 10px;
 
   color: #ec1c23;
+  text-decoration: none;
 
   cursor: pointer;
   transition: 0.2s;

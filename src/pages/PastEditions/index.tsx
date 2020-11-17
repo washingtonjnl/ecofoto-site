@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 
 import Footer from '../../components/Footer';
@@ -8,13 +8,11 @@ import Title from '../../components/Title';
 import Text from '../../components/Text';
 import GeneralProjectLogo from '../../assets/images/general-project-logo.svg';
 
+import generalCatalog from '../../assets/files/pastEditions/ecofoto-historico.pdf';
+
 import { Container, Main, Editions, Edition } from './styles';
 
 const PastEditions: React.FC = () => {
-  const handleDownloadEditionCatalog = useCallback(() => {
-    console.log('baixou');
-  }, []);
-
   return (
     <Container>
       <Header />
@@ -34,19 +32,14 @@ const PastEditions: React.FC = () => {
           fotográfica livre. Veja abaixo detalhes de cada ano.
         </Text>
         <Editions>
-          <Edition onClick={() => handleDownloadEditionCatalog()}>
+          <Edition
+            href={generalCatalog}
+            target="_blank"
+            rel="noopener noreferrer"
+            download="ecofoto-historico.pdf"
+          >
             <img src={GeneralProjectLogo} alt="Catálogo histórico do Ecofoto" />
             <h4>veja todas as edições anteriores</h4>
-            <FaDownload size={window.innerWidth > 600 ? 24 : 30} />
-          </Edition>
-          <Edition onClick={() => handleDownloadEditionCatalog()}>
-            <img src={GeneralProjectLogo} alt="Catálogo histórico do Ecofoto" />
-            <h4>edição x futuramente</h4>
-            <FaDownload size={window.innerWidth > 600 ? 24 : 30} />
-          </Edition>
-          <Edition onClick={() => handleDownloadEditionCatalog()}>
-            <img src={GeneralProjectLogo} alt="Catálogo histórico do Ecofoto" />
-            <h4>edição y futuramente</h4>
             <FaDownload size={window.innerWidth > 600 ? 24 : 30} />
           </Edition>
         </Editions>
