@@ -7,7 +7,9 @@ import Title from '../../components/Title';
 
 import projectLogo from '../../assets/images/project-logo.svg';
 
-import { Container, Main, Mentor } from './styles';
+import { Container, Main, Mentor, Calendar } from './styles';
+import Caption from '../../components/Caption';
+import Dropdown from '../../components/Dropdown';
 
 const Mentors: React.FC = () => {
   return (
@@ -21,14 +23,14 @@ const Mentors: React.FC = () => {
           <p>
             Artista visual, doutor em Arte pela Universidade Federal de Minas
             Gerais e professor do Instituto de Ciências da Arte da Universidade
-            Federal do Pará. Desenvolve trabalhos que estabelecem relações
-            entre fotografia e alteridade social, tendo participado de Encontros
-            de Fotografia, Seminários e Exposições no Brasil e exterior. Tem
-            obras no acervo do Museu da UFPA, Espaço Cultural Casa das 11
-            Janelas, Coleção Pirelli do Museu de Arte de São Paulo (MASP), Museu
-            de Arte do Rio (MAR), Museu de Arte Contemporânea do Rio Grande do
-            Sul, Museu da Fotografia do Ceará e Coleção de Fotografia da
-            Associação Brasileira de Arte Contemporânea (ABAC).
+            Federal do Pará. Desenvolve trabalhos que estabelecem relações entre
+            fotografia e alteridade social, tendo participado de Encontros de
+            Fotografia, Seminários e Exposições no Brasil e exterior. Tem obras
+            no acervo do Museu da UFPA, Espaço Cultural Casa das 11 Janelas,
+            Coleção Pirelli do Museu de Arte de São Paulo (MASP), Museu de Arte
+            do Rio (MAR), Museu de Arte Contemporânea do Rio Grande do Sul,
+            Museu da Fotografia do Ceará e Coleção de Fotografia da Associação
+            Brasileira de Arte Contemporânea (ABAC).
           </p>
         </Mentor>
         <Mentor>
@@ -117,6 +119,58 @@ const Mentors: React.FC = () => {
             Visuais de Niterói 2019.
           </p>
         </Mentor>
+        <Caption>
+          Programação completa as aulas do <i>workshop</i>
+          <p>Clique nas datas para expandir os itens.</p>
+        </Caption>
+        <Calendar>
+          <Dropdown title="26/10/2020">
+            <p>
+              <b>Alexandre Sequeira (UFPA)</b>
+            </p>
+            <p>
+              <i>Poéticas do encontro</i>
+            </p>
+          </Dropdown>
+          <Dropdown title="27/10/2020">
+            <p>
+              <b>Fernando Maia da Cunha (UFC)</b>
+            </p>
+            <p>
+              <i>
+                Narrativas de si, memória e esquecimento nas poéticas visuais:
+                caminhos da criação e edição na fotografia
+              </i>
+            </p>
+          </Dropdown>
+          <Dropdown title="28/10/2020">
+            <p>
+              <b>Alessandra Vannucci (UFRJ)</b>
+            </p>
+            <p>
+              <i>Retratos roubados e retratos de ausências</i>
+            </p>
+          </Dropdown>
+          <Dropdown title="29/10/2020">
+            <p>
+              <b>Joyce Abbade, Alice Macedo e Junior Franco</b>
+            </p>
+            <p>
+              <i>A experiência da produção coletiva de retratos</i>
+            </p>
+          </Dropdown>
+          <Dropdown title="30/10/2020">
+            <p>
+              <b>Felipe Camilo (UFC)</b>
+            </p>
+            <p>
+              <i>
+                Imagem, memória, negritude: Nossos álbuns entre o pixel e o
+                papel
+              </i>
+            </p>
+          </Dropdown>
+        </Calendar>
         <BackToTopButton />
       </Main>
       <Footer />

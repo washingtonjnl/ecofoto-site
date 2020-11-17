@@ -169,58 +169,6 @@ const About: React.FC = () => {
             <p>visitação aberta ao público da exposição virtual.</p>
           </Dropdown>
         </Calendar>
-        <Caption>
-          Programação completa as aulas do <i>workshop</i>
-          <p>Clique nas datas para expandir os itens.</p>
-        </Caption>
-        <Calendar>
-          <Dropdown title="26/10/2020">
-            <p>
-              <b>Alexandre Sequeira (UFPA)</b>
-            </p>
-            <p>
-              <i>Poéticas do encontro</i>
-            </p>
-          </Dropdown>
-          <Dropdown title="27/10/2020">
-            <p>
-              <b>Fernando Maia da Cunha (UFC)</b>
-            </p>
-            <p>
-              <i>
-                Narrativas de si, memória e esquecimento nas poéticas visuais:
-                caminhos da criação e edição na fotografia
-              </i>
-            </p>
-          </Dropdown>
-          <Dropdown title="28/10/2020">
-            <p>
-              <b>Alessandra Vannucci (UFRJ)</b>
-            </p>
-            <p>
-              <i>Retratos roubados e retratos de ausências</i>
-            </p>
-          </Dropdown>
-          <Dropdown title="29/10/2020">
-            <p>
-              <b>Joyce Abbade, Alice Macedo e Junior Franco</b>
-            </p>
-            <p>
-              <i>A experiência da produção coletiva de retratos</i>
-            </p>
-          </Dropdown>
-          <Dropdown title="30/10/2020">
-            <p>
-              <b>Felipe Camilo (UFC)</b>
-            </p>
-            <p>
-              <i>
-                Imagem, memória, negritude: Nossos álbuns entre o pixel e o
-                papel
-              </i>
-            </p>
-          </Dropdown>
-        </Calendar>
         <BackToTopButton />
       </Main>
       <Footer />

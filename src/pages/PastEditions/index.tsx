@@ -19,24 +19,23 @@ const PastEditions: React.FC = () => {
       <Main>
         <Title>O início</Title>
         <Text>
-          A ação de extensão universitária é desenvolvida pelo Setor de Extensão
+          O Ecofoto é uma ação de extensão desenvolvida pelo Setor de Extensão
           da Escola de Comunicação da UFRJ. Sua primeira edição foi realizada em
-          2008 enquanto um evento de extensão universitária, cujo principal
-          produto era um concurso cultural. Os fotógrafos premiados costumavam
-          contar ainda com exposição de seus trabalhos selecionados no campus
-          universitário. Depois de mais de dez anos desde sua primeira edição, a
-          equipe técnico-administrativa tem ainda como propósito a manutenção de
-          acervo para memória do projeto, compilando as fotografias que
-          integraram as diversas edições. Aberto ao público geral sem qualquer
-          restrição, cada edição propunha um tema para reflexão e interpretação
-          fotográfica livre. Veja abaixo detalhes de cada ano.
+          2008, no formato de concurso, e desde então tinha como principal
+          resultado uma exposição no campus universitário e a publicação de um
+          catálogo de memória dos trabalhos selecionados. Aberto ao público
+          geral sem qualquer restrição, cada edição propunha um tema para
+          reflexão e interpretação fotográfica livre. Depois de mais de dez anos
+          desde seu início, a equipe técnico-administrativa tem ainda como
+          propósito a manutenção de acervo para memória do projeto, compilando
+          as fotografias que integraram as diversas edições.Veja abaixo detalhes
+          de cada ano.
         </Text>
         <Editions>
           <Edition
             href={generalCatalog}
             target="_blank"
             rel="noopener noreferrer"
-            download="ecofoto-historico.pdf"
           >
             <img src={GeneralProjectLogo} alt="Catálogo histórico do Ecofoto" />
             <h4>veja todas as edições anteriores</h4>

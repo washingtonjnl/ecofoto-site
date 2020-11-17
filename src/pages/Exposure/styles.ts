@@ -4,6 +4,7 @@ export const Container = styled.div`
   background: #060606;
 
   min-height: 100vh;
+  padding: 14px 10px 0 10px;
 
   display: flex;
   flex-direction: column;
@@ -68,6 +69,11 @@ export const Photo = styled.div`
 
 export const PhotoInfo = styled.div`
   padding: 15px;
+  padding-left: 0;
+
+  &.right {
+    padding: 15px 0 15px 15px;
+  }
 
   .nothing {
     opacity: 0;

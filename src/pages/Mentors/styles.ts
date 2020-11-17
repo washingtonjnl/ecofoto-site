@@ -42,3 +42,13 @@ export const Mentor = styled.div`
     margin-top: 10px;
   }
 `;
+
+export const Calendar = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @media (min-width: 600px) {
+    margin: 0 -10px;
+  }
+`;

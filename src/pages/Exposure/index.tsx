@@ -32,7 +32,6 @@ const Exposure: React.FC = () => {
       numbersDrawn.includes(currentIndexLeft) ||
       numbersDrawn.includes(currentIndexRight)
     ) {
-      console.log(`repetiu o numero ${drawToVerify}`);
       return false;
     }
     return true;
@@ -40,7 +39,6 @@ const Exposure: React.FC = () => {
 
   const switchPhoto = useCallback((index: number) => {
     let thisDraw = drawNumber();
-    console.log(`sorteado o numero ${thisDraw}`);
 
     const verified = verifyDrawNumber(thisDraw);
 
@@ -104,7 +102,7 @@ const Exposure: React.FC = () => {
             />
           </Photo>
 
-          <PhotoInfo>
+          <PhotoInfo className="right">
             <h4>{expoImages[currentIndexRight].photographer}</h4>
             {expoImages[currentIndexRight].serie !== '' ? (
               <>
