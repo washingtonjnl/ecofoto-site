@@ -1,11 +1,11 @@
 export default [
   {
-    name: 'Ana Cristina Soares',
+    name: 'Ana Cristina Vieira Soares',
     bio:
       '“Natural do interior do Paraná, a fotografia sempre foi para mim um documento, arte e registro de minha existência. Sem ela não haveria nada que provasse que eu estive aqui.”',
   },
   {
-    name: 'Ariádila Matos Mesquita',
+    name: 'Ariádila Matos',
     bio:
       '“Cearense, estudante de Biblioteconomia pela Universidade Federal do Ceará e de Cinema pelo Youtube. Era a fotógrafa da família mesmo antes de ter minha própria câmera. Durante a pandemia busquei por cursos online e encontrei o Ecofoto, que me propôs deixar o equipamento de lado e focar no olhar fotográfico.”',
   },
@@ -25,7 +25,7 @@ export default [
       '“Sou fotógrafo há três anos, e nunca havia antes feito parte de um projeto/curso assim. Participar desse projeto foi sensacional: conhecer uma nova maneira de olhar, pensar e imaginar a sua fotografia como arte, como reflexo do seu pensamento, reflexo do seu ser.”',
   },
   {
-    name: 'Jully Lourenço',
+    name: 'Jully Lourenço',
     bio:
       '“Não tenho idade. Minha alma é antiga. Meu pensamento é à frente, sei lá. Nasci no interior do Estado, em Iguatu, Ceará. Moro, desde criança, em Fortaleza. Jornalista, atualmente curso Design de Moda na Universidade Federal do Ceará. Não tenho prática com a fotografia. Eu a reviro, por isso, bem pessoal particular. Ao Ecofoto, dou nova partida ao Verão Sem Sair de Casa. Quem posa é minha mãe. Ela, desde jovem, ama o sol. Mas o TEMPO agora é outro. O futuro - que chama. Nosso filtro? (De) Duralex. Cai, mas não quebra. Segue. Sigo. Seguimos - todos – raros.”',
   },

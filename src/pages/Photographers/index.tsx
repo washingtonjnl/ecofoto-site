@@ -18,12 +18,12 @@ const Photographers: React.FC = () => {
         <img src={projectLogo} alt="Ecofoto, retratos da pandemia" />
         <Title>Participantes</Title>
         <PhotographersList>
-          <Photographer photographerId={0} name="Ana Cristina Soares">
+          <Photographer photographerId={0} name="Ana Cristina Vieira Soares">
             “Natural do interior do Paraná, a fotografia sempre foi para mim um
             documento, arte e registro de minha existência. Sem ela não haveria
             nada que provasse que eu estive aqui.”
           </Photographer>
-          <Photographer photographerId={1} name="Ariádila Matos Mesquita">
+          <Photographer photographerId={1} name="Ariádila Matos">
             “Cearense, estudante de Biblioteconomia pela Universidade Federal do
             Ceará e de Cinema pelo Youtube. Era a fotógrafa da família mesmo
             antes de ter minha própria câmera. Durante a pandemia busquei por

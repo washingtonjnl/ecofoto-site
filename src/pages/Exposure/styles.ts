@@ -21,6 +21,7 @@ export const Main = styled.main`
 `;
 
 export const PhotoContainer = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
 
@@ -41,6 +42,8 @@ export const PhotoContainer = styled.div`
   }
 
   @media (min-width: 600px) {
+    width: 50%;
+
     &:first-child {
       flex-direction: column;
       margin: 0;
