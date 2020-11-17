@@ -81,21 +81,27 @@ const Photographers: React.FC = () => {
             coisas que ainda desconhecemos ou escondemos. O projeto me motivou a
             refletir e a criar a partir disso.”
           </Photographer>
-          <Photographer photographerId={8} name="Mellina Conteiro">
+          <Photographer photographerId={8} name="Marcella Sayonara">
+            “Nascida em Juazeiro do Norte, Ceará, em 1995, é artista visual e
+            pesquisadora. Nas vivências do workshop produzi trabalhos que
+            conciliam com minhas linhas de pesquisa, que partem das relações que
+            construí com pessoas que contam histórias sobre a cidade que nasci.”
+          </Photographer>
+          <Photographer photographerId={9} name="Mellina Conteiro">
             “Moradora de Campo Grande, bairro mais populoso do país, onde a
             pandemia nunca pareceu tão alarmante. Meu privilégio me permitiu
             viver em quarentena, mas sei que a vida continuou. Falaram de um
             novo normal, mas na rua percebo que tudo se assemelha ao que sempre
             foi.”
           </Photographer>
-          <Photographer photographerId={9} name="Priscila Gomes">
+          <Photographer photographerId={10} name="Priscila Gomes">
             “De Fortaleza, Ceará, fotografo desde 2017. De lá para cá, tenho
             buscado uma identidade mais autoral na fotografia. Integro um
             programa formado por mulheres fotógrafas, chamado Sol para Mulheres,
             e, nessa série final, procurei refletir um pouco minha afinidade
             pela a cor e pela fotografia de rua.”
           </Photographer>
-          <Photographer photographerId={10} name="Thaiane Oliveira">
+          <Photographer photographerId={11} name="Thaiane Oliveira">
             “Moro em São Gonçalo, Rio de Janeiro. Minha câmera é uma companheira
             de longa data. Apesar de eu ter a fotografia como hobby, tenho o
             desejo de estudar mais essa arte. O projeto Ecofoto, nessa edição

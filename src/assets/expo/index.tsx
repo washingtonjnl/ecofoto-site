@@ -70,6 +70,11 @@ import sixtynine from './69.jpg';
 import seventy from './70.jpeg';
 import seventyone from './71.jpg';
 import seventytwo from './72.jpg';
+import seventythree from './73.jpg';
+import seventyfour from './74.jpg';
+import seventyfive from './75.jpg';
+import seventysix from './76.jpg';
+import seventyseven from './77.jpg';
 
 export default [
   {
@@ -503,5 +508,35 @@ export default [
     serie: '',
     photographer: 'Thaiane Oliveira',
     photo: seventytwo,
+  },
+  {
+    subtitle: 'Sem título n°1',
+    serie: 'a todos os encontros em mim',
+    photographer: 'Marcella Sayonara',
+    photo: seventythree,
+  },
+  {
+    subtitle: 'Sem título n°2',
+    serie: 'a todos os encontros em mim',
+    photographer: 'Marcella Sayonara',
+    photo: seventyfour,
+  },
+  {
+    subtitle: 'Sem título n°3',
+    serie: 'a todos os encontros em mim',
+    photographer: 'Marcella Sayonara',
+    photo: seventyfive,
+  },
+  {
+    subtitle: 'Sem título n°4',
+    serie: 'a todos os encontros em mim',
+    photographer: 'Marcella Sayonara',
+    photo: seventysix,
+  },
+  {
+    subtitle: 'Sem título n°5',
+    serie: 'a todos os encontros em mim',
+    photographer: 'Marcella Sayonara',
+    photo: seventyseven,
   },
 ];

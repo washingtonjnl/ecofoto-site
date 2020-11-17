@@ -40,6 +40,11 @@ export default [
       '“Sou fotógrafa e atualmente vivo na cidade do Rio de Janeiro. Em muitos momentos durante a pandemia me dava conta de que eu talvez tivesse só a mim mesma. E olhar para um único rosto e um único reflexo por muito tempo pode ser desafiador ou até mesmo revelar coisas que ainda desconhecemos ou escondemos. O projeto me motivou a refletir e a criar a partir disso.”',
   },
   {
+    name: 'Marcella Sayonara',
+    bio:
+      '“Nascida em Juazeiro do Norte, Ceará, em 1995, é artista visual e pesquisadora. Nas vivências do workshop produzi trabalhos que conciliam com minhas linhas de pesquisa, que partem das relações que construí com pessoas que contam histórias sobre a cidade que nasci.”',
+  },
+  {
     name: 'Mellina Conteiro',
     bio:
       '“Moradora de Campo Grande, bairro mais populoso do país, onde a pandemia nunca pareceu tão alarmante. Meu privilégio me permitiu viver em quarentena, mas sei que a vida continuou. Falaram de um novo normal, mas na rua percebo que tudo se assemelha ao que sempre foi.”',
