@@ -58,8 +58,8 @@ const Exposure: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    setInterval(() => switchPhoto(0), 3000);
-    setInterval(() => switchPhoto(1), 5000);
+    setInterval(() => switchPhoto(0), 4000);
+    setInterval(() => switchPhoto(1), 6000);
   }, []);
 
   const history = useHistory();
