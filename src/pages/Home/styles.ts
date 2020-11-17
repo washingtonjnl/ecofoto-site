@@ -34,7 +34,7 @@ export const Main = styled.main`
   @media (min-width: 600px) {
     background: url(${desktopGraphics}) 95% center no-repeat;
     background-size: contain;
-    padding: 0 15px 0 65px;
+    padding: 0 15px 0 150px;
 
     justify-content: center;
 
