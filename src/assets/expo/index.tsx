@@ -307,13 +307,7 @@ export default [
     photo: thirtynine,
   },
   {
-    subtitle: 'Sem título nº9',
-    serie: 'Verão Sem Sair de Casa',
-    photographer: 'Jully Lourenço',
-    photo: thirtynine,
-  },
-  {
-    subtitle: 'Sem título nº9',
+    subtitle: 'Sem título nº10',
     serie: 'Verão Sem Sair de Casa',
     photographer: 'Jully Lourenço',
     photo: forty,
